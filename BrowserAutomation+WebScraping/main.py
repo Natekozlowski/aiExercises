@@ -1,10 +1,16 @@
+# importing os module for environment variables
+import os
+# importing necessary functions from dotenv library
+from dotenv import load_dotenv, dotenv_values 
+# loading variables from .env file
+load_dotenv()
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-#service = Service('abs path to chromedriver')
+service = Service(os.getenv("PATH_TO_CHROMEDRIVER"))
 
 def get_driver():
 # Set options to make browsing easier
