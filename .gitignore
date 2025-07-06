@@ -37,3 +37,5 @@
 .venv
 ehthumbs.db
 Thumbs.db
+BrowserAutomation+WebScraping
+ScrapeStockHistoricalData
