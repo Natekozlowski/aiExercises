@@ -35,7 +35,7 @@
 .Trashes
 .env
 .venv
+.vscode
+settings.json
 ehthumbs.db
 Thumbs.db
-BrowserAutomation+WebScraping
-ScrapeStockHistoricalData
